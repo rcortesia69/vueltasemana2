@@ -70,13 +70,15 @@ body{
     box-sizing: border-box;
     text-align: left;
     padding-left: 350PX;
+    padding-top: 30px;
 }
 .block1{
-    width: 50%;
+    width: 65%;
     height: 300px;
     float: left;
     box-sizing: border-box;
     padding-left: 20px;
+    padding-top: 30px;
 }
 form input[type="text"]{
     width:180px;
@@ -96,3 +98,15 @@ form input[type="submit"]{
 	color:rgb(0, 0, 0);
 	background-color:rgb(255, 255, 255);
 } 
+.footer{
+    background-color: black;
+    height: 100px;
+    color: white;
+}
+.footer h2{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+#cambio{
+    display: flow-root;
+}
